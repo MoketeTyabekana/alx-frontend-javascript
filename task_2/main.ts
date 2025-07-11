@@ -39,3 +39,12 @@ class Teacher implements TeacherInterface {
         return "Getting to work directly";
     }
 }
+
+function createEmployee (salary:number): DirectorInterface | TeacherInterface {
+    if (salary < 500) {
+        return new Teacher();
+    } else {
+        return new Director();
+    }
+
+}
