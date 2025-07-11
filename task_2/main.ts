@@ -48,3 +48,7 @@ function createEmployee (salary:number): DirectorInterface | TeacherInterface {
     }
 
 }
+
+function isDirector(employee:DirectorInterface| TeacherInterface): employee is Director {
+    return (employee as Director).workDirectorTasks !== undefined;
+}
