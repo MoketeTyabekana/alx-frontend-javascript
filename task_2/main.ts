@@ -60,3 +60,7 @@ function executeWork(employee: DirectorInterface | TeacherInterface): string {
         return employee.workTeacherTasks();
     }
 }
+
+function teachClass(todayClass : string): string {
+    return todayClass  === "Monday" || todayClass  === "Tuesday" ? "Teaching Math" : "Teaching History";
+}
