@@ -1,0 +1,15 @@
+// This file is used to configure TypeScript for a project.
+// File: task_0/tsconfig.json
+
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "module": "es6",
+    "target": "es5",
+    "allowJs": true,
+    "moduleResolution": "node",
+        "skipLibCheck": true
+  }
+}
