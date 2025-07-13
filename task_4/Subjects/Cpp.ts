@@ -7,7 +7,7 @@ namespace Subjects {
 }
 
 
-class Cpp extends Subject.Subjects {
+class Cpp extends Subjects.Subject {
     public getRequirements (): string {
         return "Here is the list of requirements for Cpp";
     }
