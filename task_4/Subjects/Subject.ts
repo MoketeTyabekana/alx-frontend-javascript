@@ -1,4 +1,4 @@
-// <reference path="./Teacher.ts" />
+/// <reference path="./Teacher.ts" />
 
 namespace Subject {
     export class Subjects{
