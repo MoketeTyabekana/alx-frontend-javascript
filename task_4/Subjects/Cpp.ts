@@ -5,3 +5,8 @@ namespace Subjects {
     experienceTeachingC?: number;
   }
 }
+
+
+class Cpp extends Subject.Subjects {
+    
+}
