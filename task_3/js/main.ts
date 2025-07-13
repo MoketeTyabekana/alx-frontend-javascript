@@ -8,6 +8,8 @@ const row: RowElement = {
 };
 
 const newRowID: RowID = CRUD.create(row);
-const updatedRow : RowElement = {...row, age: 23};
-CRUD.update({ id: newRowID, ...updatedRow });
+
+
+const updatedRow:RowElement={...row, age: 23};
+CRUD.updateRow({ id: newRowID, ...updatedRow });
 CRUD.deleteRow(newRowID);
