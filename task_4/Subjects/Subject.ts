@@ -1,7 +1,7 @@
 /// <reference path="./Teacher.ts" />
 
-namespace Subject {
-    export class Subjects{
+namespace Subjects {
+    export class Subject{
         public teacher: Teacher;
 
         setTeacher(teacher: Teacher): void {

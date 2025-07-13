@@ -16,7 +16,7 @@ class Cpp extends Subject.Subjects {
         if (teacher.experienceTeachingC === undefined || teacher.experienceTeachingC === 0) {
             return "No available teacher";
         }
-        return "Available Teacher: " + teacher.firstName + " " + teacher.lastName;
+        return `Available Teacher: ${teacher.firstName}`;
         
     }
 }
